@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko" class="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <title>recommend02: 이달의 부산</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0,target-densitydpi=medium-dpi" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- main css-->
+  <link rel="stylesheet" type="text/css"
+    href="https://www.visitbusan.net/rfc3/user/domain/www.visitbusan.net~kr.80/0/590.css" />
+  <!--생활지수.css-->
+  <link rel="stylesheet" type="text/css"
+    href="https://www.visitbusan.net/rfc3/user/domain/www.visitbusan.net~kr.80/0/613.css" />
+  <!--커스텀.css-->
+  <link rel="stylesheet" type="text/css" href="css/recommend02,03_css.css" />
+  <!--main.css-->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+
+<body class="recommend">
+  <div id="wrap">
+    <!-- header -->
+    <header id="navigation">
+      <nav class="header main">
+        <h1>
+          <a href="index.html" title="visitbusan.net">
+            <span class="blind">
+              <img src="https://www.visitbusan.net/images/common/logo.png" alt="logo">
+            </span>
+          </a>
+        </h1>
+
+        <div class="pc_menu_wrap">
+          <ul class="gnb-element">
+            <li class="dep">
+              <a href="#">부산에가면
+                <span class="line"></span>
+                <i class="ion-ios-arrow-down"></i></a>
+            </li>
+            <li class="dep">
+              <a href="#">추천여행
+                <span class="line"></span>
+                <i class="ion-ios-arrow-down"></i></a>
+            </li>
+            <li class="dep">
+              <a href="#">여행준비
+                <span class="line"></span>
+                <i class="ion-ios-arrow-down"></i></a>
+            </li>
+            <li class="dep">
+              <a href="#">유용한정보
+                <span class="line"></span>
+                <i class="ion-ios-arrow-down"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-element">
+          <input type="hidden" id="lang1" value="ko" name="lang" />
+          <a id="tgl_search" href="#" onclick="javascript:searchBar();" title="검색">
+            검색하기
+          </a>
+        </div>
+
+        <div class="other-menu-element clearfix">
+          <div class="login-element">
+            <a href="#" onclick="javascript:loginPage();" class="login mo-dn">
+              로그인
+            </a>
+            <span class="icon"></span>
+            <a href="#" onclick="javascript:myPage('true');" class="my" title="마이페이지">
+              마이페이지
+            </a>
+          </div>
+          <div class="lang-element">
+            <a href="#" onclick="javascript:opensiteMenu();" class="a_lang" title="언어">
+              Language
+              <i class="ion-ios-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="inner">
+        <h2>이달의 부산</h2>
+        <p>일상이 특별해지고 싶다면, 지금 바로 부산으로!</p>
+
+        <ul class="tab flex">
+          <li class="active"><a href="recommend02.html">이달의 부산</a></li>
+          <li><a href="recommend03.html">부산 HOT Place</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="title">
+      <div class="inner">
+
+        <div class="flex flex-between">
+          <h1>이달의 부산</h1>
+
+          <div class="flex right-wrap">
+            <p class="flex">
+              HOME
+              <img src="images/breadcrumb.svg" alt="">
+              이달의 부산
+            </p>
+            <span>|</span>
+            <button><img src="images/share.svg" alt="share"></button>
+            <button><img src="images/clip.svg" alt="clip"></button>
+            <button><img src="images/print.svg" alt="print"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cover">
+    <section class="real-title">
+      <div class="inner">
+          <h1>이달의 부산</h1>
+          <p>길고 긴 따라 떨어지는 부산의 해변
+          <br>활기와 낭만이 가득한 부산의 해변에서 추억을 만들어보자!</p>
+     </div>
+    </section>
+
+    <section class="relate">
+      <div class="inner">
+        <div class="flex flex-center">
+          <div class="relate-card relate-01">
+            <a href="#"><div class="card-name"></div>
+            <div class="card-info">
+              <h1>아름다운 야경투어</h1>
+              <p>밤의 낭만 안고 떠나는 부산시티<br>투어버스 야경투어 드라이브</p>
+              <button>
+                <i class="flex"><img src="images/views.svg" alt="view">705</i>
+              </button>
+              <button>
+                <i class="flex"><img src="images/recommends.svg" alt="recommends">2</i>
+              </button>
+            </div>
+          </div></a>
+
+          <div class="relate-card relate-02">
+            <a href="#"><div class="card-name"></div>
+            <div class="card-info">
+              <h1>부산을 머무르는 다양한 방법</h1>
+              <p>나에게 딱 맞는 부산여행 코스,<br>여기서 골라봐</p>
+              <button>
+                <i class="flex"><img src="images/views.svg" alt="view">4,201</i>
+              </button>
+              <button>
+                <i class="flex"><img src="images/recommends.svg" alt="recommends">8</i>
+              </button>
+            </div>
+          </div></a>
+
+          <div class="relate-card relate-03">
+            <a href="#"><div class="card-name"></div>
+            <div class="card-info">
+              <h1>부산의 봄</h1>
+              <p>봄바람 부는 섬으로 떠나는 <Br> 2박 3일 부산여행</p>
+              <button>
+                <i class="flex"><img src="images/views.svg" alt="view">2,901</i>
+              </button>
+              <button>
+                <i class="flex"><img src="images/recommends.svg" alt="recommends">8</i>
+              </button>
+            </div>
+          </div></a>
+        </div>
+
+        <div class="flex flex-center">
+          <div class="relate-card relate-04">
+            <a href="#"><div class="card-name"></div>
+            <div class="card-info">
+              <h1>신상 여행지</h1>
+              <p>문화로 소통하는 복합문화공간 <br> KT&G 상상마당 부산</p>
+              <button>
+                <i class="flex"><img src="images/views.svg" alt="view">967</i>
+              </button>
+              <button>
+                <i class="flex"><img src="images/recommends.svg" alt="recommends">3</i>
+              </button>
+            </div>
+          </div></a>
+
+          <div class="relate-card relate-05">
+            <a href="#"><div class="card-name"></div>
+            <div class="card-info">
+              <h1>눈부신 나의 봄날</h1>
+              <p>인생샷 찍기 좋은 부산<br>봄꽃 추천 여행지!</p>
+              <button>
+                <i class="flex"><img src="images/views.svg" alt="view">1,681</i>
+              </button>
+              <button>
+                <i class="flex"><img src="images/recommends.svg" alt="recommends">6</i>
+              </button>
+            </div>
+          </div></a>
+
+          <div class="relate-card relate-06">
+            <a href="#"><div class="card-name"></div>
+            <div class="card-info">
+              <h1>벚꽃 성지</h1>
+              <p>꽃가루를 날려~<br>꼭 가봐야 할 부산 벚꽃 명소</p>
+              <button>
+                <i class="flex"><img src="images/views.svg" alt="view">1,121</i>
+              </button>
+              <button>
+                <i class="flex"><img src="images/recommends.svg" alt="recommends">6</i>
+              </button>
+            </div>
+          </div></a>
+
+          <div class="relate-card relate-07">
+            <a href="#"><div class="card-name"></div>
+            <div class="card-info">
+              <h1>로맨틱 드라이브</h1>
+              <p>봄의 설렘 안고 떠나는<br>로맨틱 기장 드라이브</p>
+              <button>
+                <i class="flex"><img src="images/views.svg" alt="view">1,274</i>
+              </button>
+              <button>
+                <i class="flex"><img src="images/recommends.svg" alt="recommends">4</i>
+              </button>
+            </div>
+          </div></a>
+        </div>
+      </div>
+    </section>
+    
+      <section class="notice">
+        <div class="inner flex">
+          <h3>공지사항<span>|</span></h3>
+          <a href="#">
+            부산행 야경대전 프로모션(KTX 최대 60% 할인)
+            <span>＞</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+      <div class="footer footer-fix">
+        <div class="inner flex flex-between">
+          <div class="flex-item left-footer">
+            <img src="https://www.visitbusan.net/images/renew/footer1.png" alt="비짓부산로고">
+            <a href="#" class="point">개인정보보호방침</a>
+            <a href="#">저작권보호정책</a>
+            <a href="#">이용약관</a>
+            <a href="#">행정서비스현황</a>
+            <a href="#">뷰어다운로드</a>
+            <p class="copy">Copyright Busan Metropolitan City. All rights reserved.</p>
+          </div>
+
+          <div class="flex-item right-footer">
+            <h3>민원대표전화</h3>
+            <h1>051-120</h1>
+            <p>평일 08:30 - 18:30</p>
+            <span>※야간/공휴일 등 근무시간외는 당직실로 전환</span>
+            <a href="#">부산문화포탈 다봄</a>
+            <a href="#">여행상담</a>
+          </div>
+
+          <div class="flex-item right-footer">
+            <h3>관광 문의</h3>
+            <h1>1330</h1>
+            <a href="#">
+              <img src="https://www.visitbusan.net/upload_data/board_data/BBS_0000014/164498539937524.png" alt="web접근성">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
